@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja osobná stránka</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vitaj na mojej osobnej stránke</h1>
+    </header>
+    <div class="container">
+        <h2>O mne</h2>
+        <p>Ahoj, som {{Tvoje meno}} a moje deti sú mojou najväčšou inšpiráciou a motiváciou v živote. Sú zdrojom nekonečnej radosti a šťastia.</p>
+        <h2>Moje záľuby</h2>
+        <ul>
+            <li>IT</li>
+            <li>Autá</li>
+            <li>Technológie</li>
+            <li>Šport</li>
+        </ul>
+        <h2>Moje ciele</h2>
+        <p>Môj hlavný cieľ je dosiahnuť finančný zisk prostredníctvom svojej práce a podnikania.</p>
+    </div>
+</body>
+</html>
